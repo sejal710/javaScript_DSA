@@ -26,7 +26,7 @@ function romanNumber(s){
     return ans ;
 }
 
-let s ="XXVII";
+let s ="LVIII";
 console.log(romanNumber(s));
 
 
