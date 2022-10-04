@@ -22,13 +22,14 @@ function validPalindrome(s){
 			return false;
 	}
 	
-	console.log(arr.length === 0);
+	return (arr.length === 0);
 }
 
-
+let x = validPalindrome
 let str = "()";
-validPalindrome(str)
+console.log(x(str));
 // Output: true;
  
-validPalindrome("[}");
+str = "{]";
+console.log(x(str));
 // Output: false
