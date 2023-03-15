@@ -9,7 +9,8 @@ function sort(arr,n){
         return "Oops Not Sorted"
     }
     else{ 
-    return sort(arr.shift(),n-1)
+        
+    return sort(arr,n-1)
     }
 }
 
