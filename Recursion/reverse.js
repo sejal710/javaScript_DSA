@@ -1,5 +1,5 @@
 function reverse(arr,i,j){
-   if(i>j) return arr;
+   if(i>j) return arr.join("");
    let temp = arr[i];
    arr[i] = arr[j];
    arr[j] = temp;
