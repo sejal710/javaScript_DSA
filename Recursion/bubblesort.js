@@ -7,6 +7,7 @@ function sortArray(arr,n){
     if(n === 0 || n === 1){
         return arr;
     }
+    
     for(let i=0;i<n-1;i++){
         if(arr[i] < arr[i+1]){
             let temp = arr[i];
